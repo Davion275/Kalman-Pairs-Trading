@@ -1,0 +1,42 @@
+# Ignore the secrets file
+.env
+
+# Ignore virtual environment folders
+env/
+env_vbt/
+env_backtest/
+
+# Ignore data directories and files
+datas/
+src/scripts/datas/
+.csv
+.xlsx
+.hdf5
+.parquet
+.feather
+.sqlite
+.db
+
+# Ignore temporary and cache files
+.ipynb_checkpoints
+__pycache__
+.pytest_cache/
+.coverage
+.coverage.*
+.mypy_cache/
+
+# IDE-specific files
+.vscode/
+.idea/
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and distribution
+dist/
+build/
+*.egg-info/
+*.pyc
+
+# Log files
+*.log
